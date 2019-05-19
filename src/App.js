@@ -10,7 +10,20 @@ class App extends React.Component {
     this.state = {
       pokemonList: pokemon
     } 
-    
+    this.handleFavorite = this.handleFavorite.bind(this);
+  }
+
+  handleFavorite (event) {
+    const id = parseInt(event.currentTarget.id);
+    let pokemonList = [...this.state.pokemonList];
+    for (const item of pokemonList) {
+      if (item.id === id){
+        item.favorite = !item.favorite ;
+      }
+    }
+    this.setState ({
+      pokemonList: pokemonList
+    });
   }
 
   render () {
@@ -23,6 +36,7 @@ class App extends React.Component {
       <main className="main">
                 <PokeList 
                 pokemon ={this.state.pokemonList}
+                addFavorite = {this.handleFavorite}
                 />
       </main>
         

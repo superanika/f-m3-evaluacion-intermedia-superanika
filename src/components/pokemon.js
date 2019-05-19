@@ -5,7 +5,8 @@ import './Pokemon.scss';
 class Pokemon extends React.Component {
     render () {
         return (
-            <div className="card">
+            <div className={this.props.favorite ? 'card fav' : 'card'}>
+              <span className="star" role= "img" aria-label="favorite">⭐️</span>
               <img src={this.props.url} alt={this.props.name} className="poke_image"/>
               <div className="info">
                 <h2 className="poke_name">{this.props.name}</h2>
