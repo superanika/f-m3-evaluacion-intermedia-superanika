@@ -23,7 +23,7 @@ class App extends React.Component {
   render () {
     
     return (
-      <div className="App">
+      <div className="app">
         <header className="header">
           <h1 className="title">Mi lista de Pokemon</h1>
         </header>

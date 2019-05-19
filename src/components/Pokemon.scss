@@ -1,0 +1,45 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    border: 1px solid black;
+    background-color: rgb(209, 234, 242);
+    border-radius: 15px;
+    width: 150px;
+    height: 200px;
+    padding: 0;
+}
+.info {
+    width: 100%;
+}
+.poke_image {
+    margin-top: 20px;
+}
+
+.poke_name {
+    text-transform: capitalize;
+    border-top: 1px solid black;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+    font-size: 20px;
+}
+.types {
+    display: flex;
+    list-style: none;
+    border-top: 1px solid black;
+    width: 100%;
+    padding: 10px 0;
+}
+.types_item {
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0 10px;
+    background-color: grey;
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+}
