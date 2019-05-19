@@ -30,9 +30,6 @@ class App extends React.Component {
       <main className="main">
                 <PokeList 
                 pokemon ={this.pokemon}
-                url ={this.pokemon.url} 
-                name ={this.pokemon.name}
-                types = {this.pokemon.types}
                 />
       </main>
         
