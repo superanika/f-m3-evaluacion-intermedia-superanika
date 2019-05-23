@@ -13,4 +13,4 @@ const pokemon = [
     {"id":10,"name":"caterpie","types":["bug"],"evolution":null,"url":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"}
   ];
 
-export default pokemon;
+  export default pokemon;
