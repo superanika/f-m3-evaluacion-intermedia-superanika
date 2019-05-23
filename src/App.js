@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import PokeList from './components/PokeList';
-import pokemon from './components/data';
+import pokemon from './components/Data';
 
 
 class App extends React.Component {
