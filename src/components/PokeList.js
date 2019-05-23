@@ -1,5 +1,5 @@
 import React from 'react';
-import Pokemon from '../src/components/Pokemon';
+import Pokemon from './Pokemon';
 import PropTypes from 'prop-types';
 import './PokeList.scss';
 
